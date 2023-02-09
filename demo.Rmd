@@ -4,6 +4,12 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+#options(repos = c(REPO_NAME = "https://colorado.posit.co/rspm/all/__linux__/bionic/2023-02-08+FmQYDCaW"))
+#options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2022-09-29+Y3JhbiwxMDo1MzA5LDk6MTE1MDU5MDU7NjZFM0IyNA"))
+options(repos = c(  INTERNAL = "https://colorado.posit.co/rspm/internal/__linux__/bionic/2022-09-30+T5_C-9yw",
+                    INTERNAL_CRAN = "https://colorado.posit.co/rspm/all/__linux__/bionic/2023-02-08+FmQYDCaW",
+                    CRAN = "https://cran.rstudio.com/"))
+
 library(connectwidgets)
 library(dplyr)
 library(magrittr)
@@ -32,26 +38,37 @@ all_content %>%
 ```
 [Code URL](https://github.com/leesahanders/learn_shinytest2)
 
+### Shiny App as Package
+
+This Shiny app deployment has useful error messages in the logs 
+```{r shiny2}
+all_content %>%
+  filter(name == "shinypackage") %>%
+  slice(1) %>%
+  rsc_card()
+```
+[Code URL](https://github.com/leesahanders/shinypackage)
+
 ### RMarkdown
 ```{r rrmarkdown}
 all_content %>%
-  filter(name == "rmd-penguins-report") %>%
+  filter(title == "rmd-penguins-report") %>%
   slice(1) %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/r-examples/tree/main/rmd-penguins)
 
 ### RMarkdown with Blastula
-```{r rrmarkdown}
+```{r rrmarkdownblast}
 all_content %>%
-  filter(name == "rmd-blastula") %>%
+  filter(title == "rmd-blastula") %>%
   slice(1) %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/r-examples/tree/main/rmd-blastula)
 
 ### Parameterized RMarkdown
-```{r rrmarkdown}
+```{r rrmarkdownparam}
 all_content %>%
   filter(title == "Visualizing the Ocean Floor") %>%
   slice(1) %>%
@@ -70,7 +87,7 @@ all_content %>%
 
 ### Pins 
 
-```{r pins}
+```{r pins1}
 all_content %>%
   #filter(title == "lisa_api_plumber") %>%
   filter(guid == "1d002e9f-1922-4fa7-bfbd-b3262dcde0ad" | title %in% c("Pin_mtcars", "Pin_mtcars_app") ) %>%
@@ -81,7 +98,7 @@ all_content %>%
 
 ### Pins
 
-```{r pins}
+```{r pins2}
 all_content %>%
   #filter(title == "lisa_api_plumber") %>%
   filter(guid == "1d002e9f-1922-4fa7-bfbd-b3262dcde0ad") %>%
@@ -93,7 +110,7 @@ all_content %>%
 
 ### Pins: Scheduled
 
-```{r pins}
+```{r pins3}
 all_content %>%
   filter(title == "Pin_mtcars") %>%
   #filter(guid == "a84b4b78-537f-42a3-827c-7b377ee656d7") %>%
@@ -104,7 +121,7 @@ all_content %>%
 
 ### Pins: in an App
 
-```{r pins}
+```{r pins4}
 all_content %>%
   filter(name == "pin_mtcars_app") %>%
   #filter(guid == "a84b4b78-537f-42a3-827c-7b377ee656d7") %>%
@@ -221,22 +238,13 @@ all_content %>%
 ### Model Monitoring and Accuracy (vetiver, pins, plumber, connect)
 ```{r metrics}
 all_content %>%
-  filter(title == "Bike Predict - Model Step 2 - Model Card") %>%
+  filter(title == "Bike Predict - Model Step 2 - Model Card" | title == "Bike Predict - Model Step 3 - Metrics") %>%
   #filter(title == "Bike Predict - Model Step 2 - Metrics") %>%
-  slice(1) %>%
+  #slice(1) %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/bike_predict/blob/main/content/02-model/02-model-metrics/document.qmd)
 
-### Model Monitoring and Accuracy (vetiver, pins, plumber, connect)
-```{r metrics}
-all_content %>%
-  filter(title == "Bike Predict - Model Step 3 - Metrics") %>%
-  #filter(title == "Bike Predict - Model Step 2 - Metrics") %>%
-  slice(1) %>%
-  rsc_card()
-```
-[Code URL](https://github.com/sol-eng/bike_predict/blob/main/content/02-model/02-model-metrics/document.qmd)
 
 ---
 
@@ -244,15 +252,12 @@ all_content %>%
 
 ### Example of what users see if they aren't granted access to the content 
 
-```{r jupyter}
+```{r jupyter2}
 all_content %>%
   filter(title == "Jupyter Interactive Visualization") %>%
   slice(1) %>%
   rsc_card()
 ```
-
-
-
 
 
 [Source code](https://github.com/sol-eng/bike_predict/blob/main/content/02-model/02-model-metrics/document.qmd) to this connectwidget dashboard.
