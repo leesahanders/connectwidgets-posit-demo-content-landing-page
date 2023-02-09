@@ -13,6 +13,7 @@ options(repos = c(  INTERNAL = "https://colorado.posit.co/rspm/internal/__linux_
 library(connectwidgets)
 library(dplyr)
 library(magrittr)
+library(tidyverse)
 
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
