@@ -39,6 +39,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/learn_shinytest2)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/87af3074-ed09-4860-9836-e07dc79a232c/access)
 
 ### Shiny App as Package
 
@@ -50,6 +51,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/shinypackage)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/d0ebf240-788b-436b-937d-12728d216e6c/access)
 
 ### RMarkdown
 ```{r rrmarkdown}
@@ -59,6 +61,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/r-examples/tree/main/rmd-penguins)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/fe7d605a-bb96-4e8a-9ef4-b633140a05d7/access/5957)
 
 ### RMarkdown with Blastula
 ```{r rrmarkdownblast}
@@ -68,6 +71,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/r-examples/tree/main/rmd-blastula)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/4f5d77c3-88b6-4c86-9cd9-ab86c5fb8e50/access/5958)
 
 ### Parameterized RMarkdown
 ```{r rrmarkdownparam}
@@ -77,6 +81,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/blob/main/R/rmarkdown_parameterized/Visualizing%20the%20Ocean%20Floor.Rmd)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/265af2df-d761-4ec4-9e38-3d789b2e4298/access/5652)
 
 ### Plumber API
 ```{r plumber}
@@ -86,6 +91,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/R/plumber)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/09fafb81-3365-41c3-9117-04155991e10f/access)
 
 ### Pins 
 
@@ -97,6 +103,9 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/R/pin)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/1d002e9f-1922-4fa7-bfbd-b3262dcde0ad/access)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/a0aa6140-686c-4bc1-bb51-5596e5e99436/access)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/3dae5785-607d-451f-8551-820d5a07ae1d/access/5939)
 
 ### Pins
 
@@ -108,6 +117,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/R/pin)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/1d002e9f-1922-4fa7-bfbd-b3262dcde0ad/access )
 
 
 ### Pins: Scheduled
@@ -120,6 +130,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/R/pin)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/3dae5785-607d-451f-8551-820d5a07ae1d/access)
 
 ### Pins: in an App
 
@@ -131,7 +142,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/R/pin)
-
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/a0aa6140-686c-4bc1-bb51-5596e5e99436/access)
 
 ---
 
@@ -146,6 +157,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/leesahanders/code_sandbox/tree/main/Python/jupyter-notebook)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/8d4bce08-83e5-4716-87bf-c7126cbf50f9/access)
 
 ### Flask API
 
@@ -157,6 +169,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/python-examples/tree/main/flask-sentiment-analysis-api)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/8eebf350-2a72-4123-a1c3-5befff2bd31c/access)
 
 
 ### Fast API
@@ -169,6 +182,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/python-examples/tree/main/fastapi-stock)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/71e00b41-eaaf-4c42-aca4-87e9c62edbb6/access)
 
 
 ### Dash App
@@ -182,6 +196,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/python-examples/tree/main/dash-app)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/1c425113-efd2-44ec-9408-31876de8d473/access)
 
 
 ### Streamlit App
@@ -194,6 +209,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/python-examples/tree/main/streamlit-income-share)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/55189f75-f752-440a-8494-4eeed8dd818a/access)
 
 ### Quarto with Python
 
@@ -205,6 +221,7 @@ all_content %>%
   rsc_card()
 ```
 [Code URL](https://github.com/sol-eng/python-examples/tree/main/quarto-lightbox)
+[Developer URL](https://colorado.posit.co/rsc/connect/#/apps/84a42164-6a63-4fe3-af31-474ac56a9bac/access/5930)
 
 ---
 
