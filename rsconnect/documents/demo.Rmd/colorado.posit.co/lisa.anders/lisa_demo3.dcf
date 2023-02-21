@@ -5,9 +5,9 @@ account: lisa.anders
 server: colorado.posit.co
 hostUrl: https://colorado.posit.co/rsc/__api__
 appId: 14757
-bundleId: 69074
-url: https://colorado.posit.co/rsc/content/5215e021-43ac-4a4f-8afe-38ebbdeb2d18/
-when: 1675971690.528
-lastSyncTime: 1675971690.52801
+bundleId: 69290
+url: https://colorado.posit.co/rsc/demo_content_lisa/
+when: 1676319725.07834
+lastSyncTime: 1676319725.07835
 asMultiple: FALSE
 asStatic: FALSE
